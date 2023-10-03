@@ -36,7 +36,7 @@ public class CaixaEletronico {
        if(score >=40)
         System.out.println("Credito aprovado");
         else if ( score >=30 && score < 40)
-        System.out.println("Credito irá para analise");
+        System.out.println("Credito irá para analise"); //Em um controle de fluxo condicional, nem sempre nos limitamos ao se (if) e senão (else), poderemos ter uma terceira, quarta e ou inúmeras condições.
         else
             System.out.println("Credito não aprovado");
         
